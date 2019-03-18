@@ -1,0 +1,143 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 1.2em;
+    box-shadow: 1px 2px 3px #918989;
+    z-index: 100;
+}
+header h1:hover
+{
+    color:teal;
+}
+section
+{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+
+}
+.section-name
+{
+    background-color: red;
+    margin: 1em;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-name button
+{
+    background-color: black;
+    border: none;
+    width: 23px;
+    height: 23px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color:green;
+
+}
+.toast
+{
+    background-color: #333;
+    bottom:0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: aliceblue;
+    margin: 3em;
+    position: fixed;
+    width: 110px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 1px 1px .2px red;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.2px;
+    z-index:100;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+    padding: 1em;
+    visibility: hidden;
+
+}
+.section-form{
+        height: 100%;
+        width: 100%;
+        background: rgba(114, 96, 96, 0.23);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 1s;
+        visibility: hidden;
+    
+}
+.form
+{
+    background: rgb(91, 31, 231);
+    height:0px;
+    width:0px;
+    z-index: 100;
+    border-radius: 5px;
+    position: fixed;
+    bottom:0px;
+    box-shadow: 2px 3px 4px #333;
+    transition-duration: 0.3s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input[type=text]
+{
+    height: 30px;
+    width:200px;
+    background-color: aliceblue;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0.1em;
+    }
+.form input[type=button]
+{
+    height: 33px;
+    width: 50px;
+    background-color: rgb(36, 30, 30);
+    color:#fff;
+    border: none; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.okay{
+    background-color:red;
+    color:white;
+    top:200px;
+}
+
+
